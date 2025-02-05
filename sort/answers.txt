@@ -1,0 +1,30 @@
+sort1 uses: Bubble sort
+
+How do you know?: Fastest at sorted sorting
+
+sort2 uses: Merge sort
+
+How do you know?: Quickest sort for all except sorted
+
+sort3 uses: Selection sort
+
+How do you know?: Similar sort times for all
+
+
+
+
+sort 1:
+    sorted 50k - 0.611      sorted 5k - 0.040
+    reverse 50k - 5.123     reverse 5k - 0.074
+    random 50k - 5.760      random 5k - 0.105
+
+
+sort 2:
+    sorted 50k - 0.645      sorted 5k - 0.038
+    reverse 50k - 0.519     reverse 5k - 0.046
+    random 50k - 0.252      random 5k - 0.034
+
+sort 3:
+    sorted 50k - 2.450      sorted 5k - 0.062
+    reverse 50k - 2.422     reverse 5k - 0.034
+    random 50k - 2.269      random 5k - 0.064

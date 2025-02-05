@@ -1,0 +1,44 @@
+lists the 10 HTML tags and 5 CSS properties you’ve used, as well as a brief (one-sentence) description of how you chose to use JavaScript and Bootstrap
+
+Smithmass - simple version
+
+Pages:
+
+    Index
+        -landing page
+
+    Food
+        -food items assigned to each attendee
+
+    Events (date/time etc)
+        -countdown till smithmass
+
+    Attendees
+        -contact info of attedees
+
+
+10 html tags:
+    <p>
+    <a href="#">
+    <i class="fa fa-home" aria-hidden="true">
+    <script>
+    <table>
+    <thead>
+    <tr>
+    <th scope="col">
+    <tbody>
+    <td>
+
+
+5 CSS properties:
+    .sidebar {}
+    .sidebar a {}
+    .sidebar a:hover {}
+    .main {}
+    .table {}
+
+Javascript:
+    -used javascript to get current time and create a countdown to smithmass
+
+Bootstrap:
+    -used bootstrap for the table in both food and attendees

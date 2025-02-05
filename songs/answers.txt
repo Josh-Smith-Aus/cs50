@@ -1,0 +1,20 @@
+I didn't find this too hard because I've used sqlite before (and the answers were all in the walkthough...). I do always find it interesting seeing how others who use it more
+ frequently do things though as I often just go for the first answer I think of. For example in Q7 I first did:
+
+SELECT AVG(energy)
+FROM songs
+WHERE artist_id =
+(
+    SELECT id
+    FROM artists
+    WHERE name = 'Drake'
+);
+
+However the answer in the walkthough was much more elegant:
+
+SELECT AVG(energy)
+FROM songs
+JOIN artists ON songs.artist_id = artists.id
+WHERE artists.name = 'Drake';
+
+My reflection is that I should spend some more time thinking about a better solution rather than taking the easy route.

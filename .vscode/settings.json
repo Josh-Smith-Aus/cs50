@@ -1,0 +1,12 @@
+{
+    "gitdoc.enabled": true,
+    "files.associations": {
+        "*.rmd": "markdown",
+        "stdio.h": "c",
+        "mariotest": "c",
+        "random": "c",
+        "cs50.h": "c",
+        "ctype.h": "c",
+        "helpers.h": "c"
+    }
+}
